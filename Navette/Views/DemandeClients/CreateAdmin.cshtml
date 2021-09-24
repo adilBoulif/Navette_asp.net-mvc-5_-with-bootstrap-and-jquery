@@ -1,0 +1,79 @@
+﻿@model Navette.Models.DemandeClient
+
+@{
+   
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Ajouter une Demande</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>DemandeClient</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.depart, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select class="custom-select form-control col-md-6" name="depart">
+                    <option selected>Choisir votre départ</option>
+                    <option value="Kenitra">Kenitra</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                </select>
+                @Html.ValidationMessageFor(model => model.depart, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.destination, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select class="custom-select form-control col-md-6" name="destination">
+                    <option selected>Choisir votre destination</option>
+                    <option value="Kenitra">Kenitra</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                </select>
+                @Html.ValidationMessageFor(model => model.destination, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="appt" style="margin-left: 14px;">Depart:</label>
+                <input type="time" id="appt" name="h_depart">
+
+
+                @Html.ValidationMessageFor(model => model.h_depart, "", new { @class = "text-danger" })
+
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="appt">Destination:</label>
+                <input type="time" id="appt" name="h_destination">
+
+
+                @Html.ValidationMessageFor(model => model.h_destination, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.num_demande, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.num_demande, new { htmlAttributes = new { @class = "form-control col-md-6" } })
+                @Html.ValidationMessageFor(model => model.num_demande, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Ajouter" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+

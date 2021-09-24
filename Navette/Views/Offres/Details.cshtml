@@ -1,0 +1,66 @@
+﻿
+@using Microsoft.AspNet.Identity
+@model Navette.Models.Offres
+@using Navette.Models;
+@{
+    ViewBag.Title = "Details";
+    ApplicationDbContext db = new ApplicationDbContext();
+    var userId = User.Identity.GetUserId();
+    var infoUser = db.Users.Where(a => a.Id == userId).SingleOrDefault();
+    if (infoUser.Type == "0")
+    {
+        Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+    }
+    if (infoUser.Type == "1")
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }}
+
+<h2>Details</h2>
+
+<div>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+
+
+            <p>
+                <i class="fa fa-cc"></i> Description : @Html.DisplayFor(model => model.description)
+            </p>
+            <p>
+            <p>
+                <i class="fas fa-map-marker-alt "></i> Départ : @Html.DisplayFor(model => model.depart)
+            </p>
+            <p>
+            <p><i class="fas fa-bus"></i> Destination : @Html.DisplayFor(model => model.destination)</p>
+            <p>
+                <i class="far fa-clock"></i> Heure du départ : @Html.DisplayFor(model => model.h_depart)
+            </p>
+            <p><i class="fas fa-clock"></i> Heure du retour  : @Html.DisplayFor(model => model.h_retour)</p>
+            <p><i class="fas fa-user-friends"></i>  Nombre de place : @Html.DisplayFor(model => model.place)</p>
+            <p><i class="fas fa-money-bill-wave"></i>   Prix : @Html.DisplayFor(model => model.prix)</p>
+
+            <p>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/@Html.DisplayFor(model => model.strans.image)" />
+
+        </div>
+    </div>
+    <p>
+        <div class="text-center">
+           @if (infoUser.Type == "1")
+            {
+if (ViewBag.existe == null)
+{
+            <a href="@Url.Action("CreateAbon", "Abonments")" class="btn-lg btn-success btn-group" style="width: 180px;margin-left: -143px;"><i class="fas fa-credit-card"></i>  Reserver</a>
+}
+else
+{
+    <a href="@Url.Action("SuppAbon", "Abonments")" class="btn-lg btn-primary btn-group" style="width: 180px;margin-left: -143px;"><i class="fas fa-credit-card"></i>  Annuler</a>
+}}
+        </div>
+
+    </p>
+</div>

@@ -1,0 +1,25 @@
+﻿@model Navette.Models.GesUserViewModel
+
+@{
+    ViewBag.Title = "DetailsClient";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+
+
+<div>
+    <h4>Details Administrateur</h4>
+    <hr />
+    <p>
+        <i class="fas  fa-user"></i> Nom : @Html.DisplayFor(model => model.UserName)
+    </p>
+    <p>
+    <p>
+        <i class="fas fa-envelope"></i> Email: @Html.DisplayFor(model => model.Email)
+    </p>
+    <p>
+    <p><i class="fas fa-phone-alt"></i> Telephone : @Html.DisplayFor(model => model.Mobile)</p>
+</div>
+<p>
+    @Html.ActionLink("Retourner à la Liste", "IndexAdmin")
+</p>

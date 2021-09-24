@@ -1,0 +1,59 @@
+﻿@model Navette.Models.Abonments
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Supprimer</h2>
+
+<h3>Voulez-vous vraiment supprimer cette abonnement?</h3>
+<div>
+   
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+
+            <h2> <i class="fas fa-bus"></i> Sociéte du transport</h2>
+            <p>
+                <i class="fas fa-bus"></i> Nom du société : @Html.DisplayFor(model => model.Offre.strans.nom)
+            </p>
+            <p>
+            <p>
+                <i class="fas fa-map-marker-alt "></i> Départ : @Html.DisplayFor(model => model.Offre.depart)
+            </p>
+            <p>
+            <p><i class="fas fa-road"></i> Destination : @Html.DisplayFor(model => model.Offre.destination)</p>
+            <p>
+                <i class="far fa-clock"></i> Heure du départ : @Html.DisplayFor(model => model.Offre.h_depart)
+            </p>
+            <p><i class="fas fa-clock"></i> Heure du retour  : @Html.DisplayFor(model => model.Offre.h_retour)</p>
+            <p><i class="fas fa-user-friends"></i>  Nombre de place : @Html.DisplayFor(model => model.Offre.place)</p>
+            <p><i class="fas fa-money-bill-wave"></i>   Prix : @Html.DisplayFor(model => model.Offre.prix)</p>
+
+            <p>
+        </div>
+        <div class="col-md-6">
+            <h2><i class="fas  fa-user"> </i> Utilisateur</h2>
+            <p>
+                <i class="fas  fa-user"></i> Nom : @Html.DisplayFor(model => model.user.UserName)
+            </p>
+            <p>
+            <p>
+                <i class="fas fa-envelope"></i> Email: @Html.DisplayFor(model => model.user.Email)
+            </p>
+            <p>
+            <p><i class="fas fa-phone-alt"></i> Telephone : @Html.DisplayFor(model => model.user.PhoneNumber)</p>
+
+        </div>
+    </div>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Supprimer" class="btn btn-danger" /> 
+            <a href="@Url.Action("Index", "Abonments" )" class="btn btn-primary">Annuler</a>
+        </div>
+    }
+</div>

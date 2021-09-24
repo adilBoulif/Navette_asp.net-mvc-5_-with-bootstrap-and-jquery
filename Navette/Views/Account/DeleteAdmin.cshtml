@@ -1,0 +1,54 @@
+﻿@model Navette.Models.GesUserViewModel
+
+@{
+    ViewBag.Title = "DeleteClient";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+
+
+<h3>Voulez-vous vraiment supprimer ce Administrateur?</h3>
+<div>
+    <h4>Supprimer un Administrateur</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            <i class="fas  fa-user"></i> Nom :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+
+
+        <dt>
+            <i class="fas fa-phone-alt"></i> Telephone :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mobile)
+        </dd>
+
+        <dt>
+            <i class="fas fa-envelope"></i> Email:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Supprimer" class="btn btn-danger" />
+            <a href="@Url.Action("IndexAdmin", "Account" )" class="btn btn-primary">Annuler</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,91 @@
+﻿@model Navette.Models.Offres
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Supprimer</h2>
+
+<h3>Voulez-vous vraiment supprimer cette offre?</h3>
+<div>
+    <h4>Offres</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.strans.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.strans.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.depart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.depart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.destination)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.destination)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.h_depart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.h_depart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.h_retour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.h_retour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.place)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.place)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prix)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prix)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+      
+            <div class="form-actions no-color">
+                <input type="submit" value="Supprimer" class="btn btn-danger" />
+                <a href="@Url.Action("Index", "Offres" )" class="btn btn-primary">Annuler</a>
+            </div>
+     
+    }
+</div>

@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNet.Identity
+@using Navette.Models;
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        ApplicationDbContext db = new ApplicationDbContext();
+        var userId = User.Identity.GetUserId();
+        var infoUser = db.Users.Where(a => a.Id == userId).SingleOrDefault();
+        @Html.AntiForgeryToken()
+
+        <div class="dropdown">
+            <button style="height: 48px;
+    width: 97px;
+    background: transparent;
+    color: white;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @User.Identity.GetUserName()  <span class="glyphicon glyphicon-user"></span>
+
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                @if (infoUser.Type == "0")
+                {
+                    <li><a href="~/Strans/Index"><span class="glyphicon glyphicon-briefcase"> Administration</span></a></li>
+                    <li>
+                        <a href="~/Account/modifierProfile"> <span class="glyphicon glyphicon-cog"> Setting</span> </a>
+                    </li>
+                    <li> <a href="javascript:document.getElementById('logoutForm').submit()">  <span class="glyphicon glyphicon-off"> Deconnexion</span></a></li>
+                }
+                @if (infoUser.Type == "1")
+                {
+                    <li>
+                        <a href="~/Account/modifierProfile"> <span class="glyphicon glyphicon-cog"> Setting</span> </a>
+                    </li>
+                    <li> <a href="javascript:document.getElementById('logoutForm').submit()">  <span class="glyphicon glyphicon-off"> Deconnexion</span></a></li>
+
+                }
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("S'inscrire", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Se connecter", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

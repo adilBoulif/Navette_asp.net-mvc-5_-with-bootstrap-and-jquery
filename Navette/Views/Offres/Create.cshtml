@@ -1,0 +1,111 @@
+﻿@model Navette.Models.Offres
+
+
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Ajouter une Offre</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group ">
+            @Html.LabelFor(model => model.depart, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select class="custom-select form-control " name="depart">
+                    <option selected>Choisir votre départ</option>
+                    <option value="Kenitra">Kenitra</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                </select>
+
+                @Html.ValidationMessageFor(model => model.depart, "", new { @class = "text-danger" })
+            </div>
+            </div>
+
+            <div class="form-group ">
+                @Html.LabelFor(model => model.destination, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <select class="custom-select form-control " name="destination">
+                        <option selected>Choisir votre destination</option>
+                        <option value="Kenitra">Kenitra</option>
+                        <option value="Rabat">Rabat</option>
+                        <option value="Casablanca">Casablanca</option>
+                    </select>
+
+                    @Html.ValidationMessageFor(model => model.destination, "", new { @class = "text-danger" })
+                </div>
+                </div>
+        <div class="row">
+            <div class="form-group  col-md-6  " style="padding-left: 193px;">
+                <label for="appt" >Depart:</label>
+                <input type="time" id="appt" name="h_depart">
+
+
+                @Html.ValidationMessageFor(model => model.h_depart, "", new { @class = "text-danger" })
+
+            </div>
+
+            <div class="form-group col-md-6 ">
+                <label for="appt">Retour:</label>
+                <input type="time" id="appt" name="h_retour">
+
+
+                @Html.ValidationMessageFor(model => model.h_retour, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.place, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.place, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.place, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.prix, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.prix, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.prix, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+               <label class = "control-label col-md-2">Sociéte du transport</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("stransId", null, htmlAttributes: new { @class = "form-control" })
+
+                    @Html.ValidationMessageFor(model => model.stransId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Ajouter" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+ 
+}
+
+<div>
+    @Html.ActionLink("Retourner à la Liste", "Index")
+</div>

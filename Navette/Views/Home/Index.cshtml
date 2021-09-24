@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Navette.Models.Offres>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="jumbotron" style="margin-top: 12px;height: 59px;
+    padding-bottom: 69px;">
+
+            <i class="fas fa-map-marker-alt" style="position: absolute;
+    left: 142px;
+    top: 115px;"></i> 
+            @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+            {
+            <select class="custom-select form-control col-md-6" name="depart">
+                <option selected>Choisir votre départ</option>
+                <option value="Kenitra">Kenitra</option>
+                <option value="Rabat">Rabat</option>
+                <option value="Casablanca">Casablanca</option>
+            </select><i class="fas fa-bus" style="position: absolute;
+    left: 512px;
+    top: 115px;"></i>
+            <select class="custom-select form-control col-md-6" style="margin-left:95px;" name="destina">
+                <option selected>Choisir votre destination</option>
+                <option value="Kenitra">Kenitra</option>
+                <option value="rabat">Rabat</option>
+                <option value="Casablanca">Casablanca</option>
+            </select>
+            <button class="btn btn-primary" style="margin-left :97px;
+                    margin-bottom: 25px;
+                    width :138px;">
+                <i class="fas fa-search" style="margin-right: 10px;"></i>Rechercher
+            </button>}
+        </div>
+    </div><div class="row">
+    @foreach (var item in Model)
+
+    {
+        
+
+
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail" style="margin-bottom: 15px;">
+                    <img src="~/images/@Html.DisplayFor(modelItem => item.strans.image)" alt="..."style="max-height: 108px;" >
+                    <div class="caption">
+                        <h3>@Html.DisplayFor(modelItem => item.depart) <i class="fas fa-route"></i> @Html.DisplayFor(modelItem => item.destination)</h3>
+                        <p> <i class="far fa-clock"></i> Départ : @Html.DisplayFor(modelItem => item.h_depart)</p>
+                        <p> <i class="fas fa-clock"></i> Retour : @Html.DisplayFor(modelItem => item.h_retour)</p>
+                        <p><a href="@Url.Action("Details", "Offres", new { id=item.Id})" class="btn btn-primary">Details</a> </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+    }
+</div>
+
+</div>

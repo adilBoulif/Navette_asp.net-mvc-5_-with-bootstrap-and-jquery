@@ -1,0 +1,43 @@
+﻿@model Navette.Models.Strans
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Société du transport</h4>
+    <hr />
+   
+    <div class="row">
+        <div class="col-md-6">
+
+
+            <p>
+                <i class="fa fa-cc"></i> Nom : @Html.DisplayFor(model => model.nom)
+            </p>
+            <p>
+            <p>
+                <i class="fas fa-envelope"></i> Email : @Html.DisplayFor(model => model.email)
+            </p>
+            <p>
+                <i class="fas fa-phone-alt"></i> Telephone : @Html.DisplayFor(model => model.telephone)</p>
+            <p>
+                <i class="fas fa-map-marker-alt "></i> Adresse : @Html.DisplayFor(model => model.Adresse)
+            </p>
+
+
+            <p>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/@Html.DisplayFor(model => model.image)" />
+
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Modifier", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Retourner à la Liste", "Index")
+</p>

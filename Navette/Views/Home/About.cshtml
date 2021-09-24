@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Navette.Models.DemandeClient>
+
+@{
+    ViewBag.Title = "Service Client";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<a class="btn btn-success" style="float:right; margin-top: -19px;" href="~/DemandeClients/Create">Demander</a>
+@foreach (var item in Model)
+{
+<div class="panel panel-default" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 55px;">
+    <div class="panel-heading">Cette offre a été demandé par @Html.DisplayFor(modelItem => item.num_demande) Clients</div>
+    <div class="panel-body">
+        <p> @Html.DisplayFor(modelItem => item.depart)<i class="fas fa-route"></i> @Html.DisplayFor(modelItem => item.destination)</p> 
+        <p> <i class="far fa-clock"></i> Départ : @Html.DisplayFor(modelItem => item.h_depart)</p>
+        <p> <i class="fas fa-clock"></i> Retour : @Html.DisplayFor(modelItem => item.h_destination)</p>
+    </div>
+</div>}

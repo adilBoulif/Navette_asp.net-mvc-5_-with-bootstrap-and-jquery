@@ -1,0 +1,186 @@
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\ApplicationInsights.config
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\csc.exe
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\vbc.exe
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\VBCSCompiler.exe
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Navette.dll.config
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Navette.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Navette.pdb
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Antlr3.Runtime.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\EntityFramework.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\EntityFramework.SqlServer.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.Web.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.ApplicationInsights.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Newtonsoft.Json.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Owin.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Helpers.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Mvc.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Optimization.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Razor.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.Razor.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\WebGrease.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.Web.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.ApplicationInsights.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Helpers.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Mvc.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Optimization.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.Razor.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\System.Web.WebPages.Razor.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Antlr3.Runtime.pdb
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Newtonsoft.Json.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\EntityFramework.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\EntityFramework.SqlServer.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.dll
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.pdb
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.sd.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.csproj.GenerateResource.Cache
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.sds.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.dsd5.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.dsd564.resources
+C:\Users\bf\documents\visual studio 2015\Projects\Navette\Navette\obj\Debug\Navette.csprojResolveAssemblyReference.cache
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.df54.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.ss56.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.ss566.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.nnnn.resources
+C:\Users\bf\Documents\Visual Studio 2015\Projects\Navette\Navette\obj\Debug\Navette.Migrations.sdsdds.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\ApplicationInsights.config
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\csc.exe
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\vbc.exe
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Navette.dll.config
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Navette.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Navette.pdb
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Antlr3.Runtime.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\EntityFramework.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.Web.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Newtonsoft.Json.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Owin.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Helpers.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Mvc.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Optimization.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Razor.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\WebGrease.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.Web.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Helpers.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Mvc.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Optimization.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.Razor.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Antlr3.Runtime.pdb
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Newtonsoft.Json.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\EntityFramework.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.csproj.AssemblyReference.cache
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.sd.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.sds.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.dsd5.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.dsd564.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.df54.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.ss56.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.ss566.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.nnnn.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.Migrations.sdsdds.resources
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.csproj.GenerateResource.cache
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.csproj.CoreCompileInputs.cache
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.csproj.CopyComplete
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.dll
+C:\Users\Dell7400\Desktop\Navette\Navette\Navette\obj\Debug\Navette.pdb
